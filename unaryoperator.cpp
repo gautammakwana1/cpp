@@ -12,7 +12,7 @@ class Box
     {
         return l*b*h;
     }
-    Box operator+(int)
+    Box operator++(int)
     {
         Box t;
         t.l=l++;
